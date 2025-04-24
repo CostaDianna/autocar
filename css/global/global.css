@@ -1,0 +1,55 @@
+body {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #111111;
+}
+
+h1,
+h2,
+h3,
+h4,
+ul,
+p,
+blockquote,
+dd {
+  margin: 0px;
+}
+
+ul {
+  padding: 0px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.logo {
+  width: 200px;
+  height: auto; /* Isso mantém a proporção da imagem */
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+img[src$=".jpg"] {
+  border-radius: 4px;
+}
+.whatsapp-flutuante {
+  position: fixed; /* Torna a imagem fixa */
+  bottom: 20px; /* Distância da parte inferior da página */
+  right: 20px; /* Distância da lateral direita */
+  width: 50px; /* Ajuste do tamanho */
+  height: 50px; /* Ajuste do tamanho */
+  z-index: 1000; /* Garante que a imagem fique acima de outros elementos */
+  cursor: pointer; /* Mostra o ícone de clique */
+}
+.btn-whatsapp-float img {
+  width: 200%;
+  height: 200%;
+  border-radius: 50%; /* Para deixar o botão redondo */
+}
+
